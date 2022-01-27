@@ -1,0 +1,51 @@
+h1
+{
+    color: red;
+    text-align: center;
+}
+
+img
+{
+    height: 100px;
+    width: 100px;
+}
+
+main
+{
+    display: flex;
+}
+
+.joueur
+{
+    margin: auto;
+    display: flex ;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ordinateur
+{
+    margin: auto;
+}
+
+/* style pour les test gagné perdu et egale */
+.egale
+{
+    background-color: orange;
+    max-width: max-content;
+    padding: 5px;
+}
+
+.gagne
+{
+    background-color: green;
+    max-width: max-content;
+    padding: 5px;
+}
+
+.perdu
+{
+    background-color: red;
+    max-width: max-content;
+    padding: 5px;
+}

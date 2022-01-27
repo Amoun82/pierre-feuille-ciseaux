@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Jeu du pierre feuille ciseaux</title>
+</head>
+<body>
+
+    <h1>Jeux du pierre feuille ciseaux</h1>
+
+    <main>
+        <section class="joueur">
+            <div class="pierre">
+                <figure>
+                    <img src="https://www.france-mineraux.fr/wp-content/uploads/2019/07/pierre-magnesite.jpg" alt="pierre"><br>
+                    <input type="button" value="Pierre" onclick="jouer(1)">
+                </figure>
+            </div>
+
+            <div class="feuille">
+                <figure>
+                    <img src="https://us.123rf.com/450wm/esvetleishaya/esvetleishaya1701/esvetleishaya170100013/69865667-fond-blanc-isol%C3%A9-feuille-d-or-orange-et-rouge-belle-feuille-d-%C3%A9rable-automne-isol%C3%A9e-sur-blanc-feuill.jpg?ver=6" alt="feuille"><br>
+                    <input type="button" value="Feuille" onclick="jouer(2)">
+                </figure>
+            </div>
+
+            <div class="ciseaux">
+                <figure>
+                    <img src="https://media.castorama.fr/is/image/Castorama/ciseau-de-jardin-fiskars~6411501110404_21c?$MOB_PREV$&$width=618&$height=618" alt="ciseaux"><br>
+                    <input type="button" value="Ciseaux" onclick="jouer(3)">
+                </figure>
+            </div>
+        </section>
+
+        <section class="ordinateur">
+            
+            <div id="resultat"> 
+                a vous de jouer !!!
+            </div>
+
+        </section>
+
+    </main>
+
+    <script type="text/javascript" src="jeu.js">
+
+
+    </script>
+
+</body>
+</html>
